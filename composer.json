@@ -8,8 +8,6 @@
             "email": "Josh@CalderaWP.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {},
     "autoload": {
         "psr-4": {
             "calderawp\\filter\\acf\\": "src"

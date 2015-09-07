@@ -13,7 +13,7 @@ namespace calderawp\filter\acf;
 
 class acf_field {
 
-	public function _construct() {
+	public function __construct() {
 		add_filter( 'caldera_magic_tag-acf_field', array( $this, 'do_magic' ) );
 	}
 
@@ -51,4 +51,5 @@ class acf_field {
 		}
 
 	}
+
 }
